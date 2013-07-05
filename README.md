@@ -1,7 +1,7 @@
 4gl-xmlreader
 =============
 
-Using sax-reader to read complex XML files
+Using SAX-READER to read complex XML files in Progress 4GL.
 
 More information at Progress Knowledge Base:
 
