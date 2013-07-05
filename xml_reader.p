@@ -19,7 +19,7 @@ def var c-node as char   no-undo. /* current child node (temp-table field) */
 /* Main Block */
 create sax-reader h-sax.
 h-sax:handler = this-procedure.
-h-sax:set-input-source("file", "xml_teste.xml"). /* file must be in the current working directory */
+h-sax:set-input-source("file", "example_file.xml"). /* file must be in the current working directory */
 h-sax:sax-parse().
 
 for each tt_ide:
